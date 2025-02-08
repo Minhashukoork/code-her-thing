@@ -1,0 +1,75 @@
+
+/* General Reset and Layout */
+body {
+    font-family: 'Comfortaa', sans-serif; /* Comfortaa font */
+    background-color: #4B3621;  /* Coffee brown background */
+    background-image: url('women-empowerment-background.jpg'); /* Add your image of women empowerment here */
+    background-size: cover;  /* Make background image cover the screen */
+    background-position: center center;  /* Center the background image */
+    background-attachment: fixed;  /* Fix the background so it doesn't scroll */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(135deg, #F5F5DC, #FFFFFF);  /* White and Beige gradient */
+    color: #4B3621;  /* Coffee brown text color */
+    padding: 30px;
+    text-align: center;
+}
+
+/* Updated Heading with Bodoni-like font (Georgia as alternative) */
+header h1 {
+    font-size: 50px;  /* Bigger font size */
+    font-family: 'Georgia', serif;  /* Bodoni-like font */
+    font-style: normal;  /* Keep the font style normal */
+    font-weight: bold;  /* Make it bold */
+    color: #4B3621;  /* Coffee brown color for "Laurel" text */
+}
+
+/* Quote Section */
+.quote-section {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #F5F5DC, #FFFFFF);  /* White and Beige gradient */
+    opacity: 0.85;  /* Make the background slightly transparent */
+}
+
+.quote-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4B3621;  /* Coffee brown color for the quote */
+    margin-bottom: 20px;
+}
+
+/* Next Button Styling */
+.next-btn {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    background-color: #4B3621;  /* Coffee brown color for the Next button */
+    color: #F5F5DC;  /* Beige text color */
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.next-btn:hover {
+    background-color: #3E2A1F;  /* Darker brown on hover */
+}
+
+/* Footer Section */
+footer {
+    background: linear-gradient(135deg, #F5F5DC, #FFFFFF);  /* White and Beige gradient */
+    color: #4B3621;  /* Coffee brown text */
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

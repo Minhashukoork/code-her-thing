@@ -1,0 +1,93 @@
+/* General Styling for the Page */
+body {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #F5F5DC; /* Beige background */
+    color: #4B3621; /* Coffee brown text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section Styling */
+header {
+    background-color: #6F4F32; /* Coffee brown */
+    color: #F5F5DC; /* Beige text */
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+}
+
+/* Content Section Styling */
+.content {
+    text-align: center;
+    padding: 50px;
+}
+
+.content p {
+    font-size: 20px;
+    color: #6F4F32; /* Coffee brown text */
+    margin-bottom: 20px;
+}
+
+/* Message Box Styling */
+.message {
+    background-color: #F5F5DC; /* Beige background for messages */
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #6F4F32; /* Coffee brown border */
+    border-radius: 10px;
+}
+
+.message h3 {
+    font-size: 24px;
+    color: #6F4F32; /* Coffee brown text */
+}
+
+.message p {
+    font-size: 18px;
+    color: #4B3621;
+}
+
+/* Thank You Message Styling */
+.thank-you-message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6F4F32;
+    margin: 30px 0;
+}
+
+/* Button Styling */
+button {
+    background-color: #6F4F32; /* Coffee brown */
+    color: #F5F5DC; /* Beige text */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4B3621; /* Darker brown */
+}
+
+/* Footer Section Styling */
+footer {
+    background-color: #6F4F32; /* Coffee brown */
+    color: #F5F5DC; /* Beige text */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}

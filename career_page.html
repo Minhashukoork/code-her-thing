@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career - What's the Problem?</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Comfortaa', sans-serif;
+            background-color: #F5F5DC;
+            color: #4B3621;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 18px;
+        }
+        textarea {
+            width: 80%;
+            height: 100px;
+            margin: 20px 0;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #4B3621;
+        }
+        button {
+            background-color: #6F4F32;
+            color: #F5F5DC;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4B3621;
+        }
+        /* Styling for the 'Next' button */
+        .next-btn {
+            background-color: #4B3621;
+            color: #F5F5DC;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .next-btn:hover {
+            background-color: #3E2A1F;
+        }
+    </style>
+</head>
+<body>
+
+<h1>What's the Problem in Your Career?</h1>
+<p>We understand that career challenges can be tough. Please tell us more about your current concerns.</p>
+
+<!-- A form to collect user's career-related problem -->
+<textarea id="career-problem" placeholder="Describe your career challenges..."></textarea><br><br>
+<button onclick="submitCareerProblem()">Submit and Connect to Chatbot</button>
+
+<!-- Next button to navigate to the support page -->
+<a href="support_page.html">
+    <button class="next-btn">Next</button>
+</a>
+
+<script>
+    function submitCareerProblem() {
+        var problem = document.getElementById('career-problem').value;
+
+        if (problem.trim() === "") {
+            alert("Please describe your career problem before submitting.");
+            return;
+        }
+
+        // Process the user's career problem (you can save it to a database or send it to a server)
+        // For now, we'll redirect the user to the chatbot page.
+        window.location.href = "chatbot_page.html"; // Replace with the actual chatbot URL
+    }
+</script>
+
+</body>
+</html>
