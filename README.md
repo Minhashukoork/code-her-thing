@@ -12,42 +12,27 @@ Project Description
 this project helps to connect women all around the world and communicate their problems...
 
 The Problem statement
-[What ridiculous problem are you solving?]
+problems faced by women
 
 The Solution
-[How are you solving it? Keep it fun!]
+By connecting women all around the world
 
-Technical Details
-Technologies/Components Used
 For Software:
 
-[Languages used]
-[Frameworks used]
-[Libraries used]
-[Tools used]
-For Hardware:
+html
+javascript
 
-[List main components]
-[List specifications]
-[List tools required]
-Implementation
-For Software:
-
-Installation
-[commands]
-
-Run
-[commands]
 
 Project Documentation
 For Software:
 
 Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name) Add caption explaining what this shows
+![image](https://github.com/user-attachments/assets/d5bf67ce-ed0b-473b-9e1b-739411683d60)
 
-![Screenshot2](Add screenshot 2 here with proper name) Add caption explaining what this shows
+![image](https://github.com/user-attachments/assets/94af4bc1-d4c0-4930-9af3-7cf93b120d90)
 
-![Screenshot3](Add screenshot 3 here with proper name) Add caption explaining what this shows
+![image](https://github.com/user-attachments/assets/756cecf0-a3e2-449d-b55e-4ac89576895f)
+
 
 Diagrams
 ![Workflow](Add your workflow/architecture diagram here) Add caption explaining your workflow
@@ -70,12 +55,10 @@ Build Photos
 
 Project Demo
 Video
-[Add your demo video link here] Explain what the video demonstrates
+https://drive.google.com/file/d/1fK3yo9prgazxWTQg4kg90f682iBoI6z7/view?usp=sharing
 
-Additional Demos
-[Add any extra demo materials/links]
+
 
 Team Contributions
-[Name 1]: [Specific contributions]
-[Name 2]: [Specific contributions]
-[Name 3]: [Specific contributions]
+[Name 1]: minha
+[Name 2]: minha shukoor
